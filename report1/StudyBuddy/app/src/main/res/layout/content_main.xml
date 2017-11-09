@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hdar2013.studybuddy.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="textPersonName|textCapWords"
+       android:hint="Search for classes"
+       android:ems="10"
+       android:id="@+id/editText"
+       android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName|textCapWords"
+        android:hint="Search by Professor"
+        android:ems="10"
+        android:id="@+id/editText2"
+        tools:layout_editor_absoluteY="69dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:onClick="addNoneForScore"
+        android:text="Submit"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="269dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:onClick="Submit"
+        android:text="Submit"
+        tools:layout_editor_absoluteY="69dp"
+        tools:layout_editor_absoluteX="269dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:id="@+id/button2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Include Graduate Classes"
+        android:textSize="18sp"
+        android:layout_above="@+id/imageView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginBottom="22dp" />
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="250dp"
+       android:scaleType="centerCrop"
+       android:src="@drawable/umllogo"
+       tools:layout_editor_absoluteY="129dp"
+       tools:layout_editor_absoluteX="45dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignRight="@+id/button"
+       android:layout_alignEnd="@+id/button"
+       android:layout_marginRight="59dp"
+       android:layout_marginEnd="59dp"
+       android:layout_marginBottom="59dp"
+       android:id="@+id/imageView" />
+
+</RelativeLayout>
