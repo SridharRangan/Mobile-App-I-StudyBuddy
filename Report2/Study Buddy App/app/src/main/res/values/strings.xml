@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UML Study Buddy</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="view_data">Test for Data</string>
+    <string name="add_user">Add Account</string>
+    <string name="update">Update Username</string>
+    <string name="delete">Remove Username</string>
+</resources>
