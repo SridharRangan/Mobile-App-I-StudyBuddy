@@ -1,0 +1,9 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Study Buddy</string>
+
+    <!-- Category name for the vocabulary words for help [CHAR LIMIT=20] -->
+    <string name="category_help">Looking for help</string>
+    <!-- Category name for the vocabulary words for tutor members [CHAR LIMIT=20] -->
+    <string name="category_tutor">Tutoring</string>
+</resources>
