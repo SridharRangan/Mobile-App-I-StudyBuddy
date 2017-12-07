@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.studybuddy.firebase.ProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/greetings"
+        android:id="@+id/textViewUserEmail"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/help"
+        style="@style/CategoryStyle"
+        android:background="@color/background_color_1"
+        android:text="@string/look_help" />
+
+    <TextView
+        android:id="@+id/tutor"
+        style="@style/CategoryStyle"
+        android:background="@color/background_color_2"
+        android:text="@string/tutors" />
+
+    <ListView
+        android:id="@+id/helpItemListView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
+
+</LinearLayout>

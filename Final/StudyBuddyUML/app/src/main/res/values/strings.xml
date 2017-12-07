@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">"Study Buddy UML "</string>
+    <string name="user_reg">"User Registration "</string>
+    <string name="sign_up">"Sign Up"</string>
+    <string name="already_reg">"Already Registered? Sign in here</string>
+    <string name="help_with">What do you need help with?</string>
+    <string name="save">Save</string>
+    <string name="hello">hello</string>
+    <string name="user_login">User Login</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="sign_in">SignIn</string>
+    <string name="no_account">Not have an account? Signup Here</string>
+    <string name="greetings">Greetings</string>
+    <string name="look_help">Looking for help?</string>
+    <string name="tutors">UML Tutors</string>
+    <string name="logout">Logout</string>
+</resources>

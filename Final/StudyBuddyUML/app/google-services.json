@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "527942895382",
+    "firebase_url": "https://umlstudy-e962f.firebaseio.com",
+    "project_id": "umlstudy-e962f",
+    "storage_bucket": "umlstudy-e962f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527942895382:android:001bcffa0acbbe38",
+        "android_client_info": {
+          "package_name": "com.studybuddy.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527942895382-qlt9055qictko99legui25i0kliqs69t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxpwIKvGAu9mbRrJQraWHYbVNbSZdUPo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
