@@ -1,5 +1,5 @@
-# final-project-team-darraptor
-final-project-team-darraptor created by GitHub Classroom
+# Mobile App I StudyBuddy Project
+
 
 
 Sridhar Rangan
